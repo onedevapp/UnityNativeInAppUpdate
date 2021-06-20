@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.onedevapp.nativeinappupdate">
+
+    <application
+        android:enabled="true"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        tools:node="replace"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <provider
+            android:name=".CustomFileProvider"
+            android:authorities="${applicationId}.native_in_app_update-file-provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            android:multiprocess="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                tools:replace="android:resource"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+
+    </application>
+</manifest>
