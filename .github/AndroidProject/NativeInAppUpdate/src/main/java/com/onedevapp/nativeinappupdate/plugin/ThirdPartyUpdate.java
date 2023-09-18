@@ -1,5 +1,6 @@
-package com.onedevapp.nativeinappupdate;
+package com.onedevapp.nativeinappupdate.plugin;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.DownloadManager;
 import android.content.Context;
@@ -68,6 +69,7 @@ public class ThirdPartyUpdate extends BaseUpdateClass {
     /**
      * Start update will download apk and prompt user for installation
      */
+    @SuppressLint("Range")
     @Override
     public void startUpdate() {
 

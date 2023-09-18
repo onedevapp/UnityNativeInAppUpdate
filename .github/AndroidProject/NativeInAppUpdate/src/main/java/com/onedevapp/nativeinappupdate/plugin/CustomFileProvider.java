@@ -1,4 +1,4 @@
-package com.onedevapp.nativeinappupdate;
+package com.onedevapp.nativeinappupdate.plugin;
 
 import androidx.core.content.FileProvider;
 

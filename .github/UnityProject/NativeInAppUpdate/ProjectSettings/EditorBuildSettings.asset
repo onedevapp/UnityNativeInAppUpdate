@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/NativeInAppUpdate/Demo/InAppUpdateDemo.unity
+    path: Assets/Sample/InAppUpdateDemo.unity
     guid: a73738bb5ecf71f4285915f8e00725f2
   m_configObjects: {}

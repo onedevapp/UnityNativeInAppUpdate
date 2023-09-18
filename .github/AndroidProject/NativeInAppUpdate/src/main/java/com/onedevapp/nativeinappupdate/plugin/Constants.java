@@ -1,4 +1,4 @@
-package com.onedevapp.nativeinappupdate;
+package com.onedevapp.nativeinappupdate.plugin;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;

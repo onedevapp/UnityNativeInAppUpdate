@@ -5,18 +5,20 @@ plugins {
 ext {
     PUBLISH_GROUP_ID = 'com.onedevapp'
     PUBLISH_ARTIFACT_ID = 'NativeInAppUpdate'
-    PUBLISH_VERSION = '1.0'
+    PUBLISH_VERSION = '1.1'
 }
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.3"
+    namespace 'com.onedevapp.nativeinappupdate.plugin'
+
+    compileSdkVersion 33
+    buildToolsVersion "33.0.1"
 
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+        targetSdkVersion 33
+        versionCode 2
+        versionName "1.1"
 
         libraryVariants.all { variant ->
             def variantName = variant.name.capitalize()
@@ -56,6 +58,6 @@ android {
 }
 
 dependencies {
-    compileOnly "androidx.core:core:1.5.0"
-    compileOnly 'com.google.android.play:core:1.10.0'
+    compileOnly "androidx.core:core:1.12.0"
+    compileOnly 'com.google.android.play:core:1.10.3'
 }
