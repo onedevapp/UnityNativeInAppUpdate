@@ -1,18 +1,12 @@
 # UnityNativeInAppUpdate
-Unity plugin helps you pick an image fromCamera or Gallery/Photos from your device
+Unity plugin helps you in-app updates in your app both with play store update and can also download APK from server and installs it. Note: currently supported platform is Android only
 <br><br>
 
 ### INSTALLATION
-There are 4 ways to install this plugin:
 
-1. import NativeInAppUpdate.unitypackage via Assets-Import Package
-2. clone/download this repository and move the Plugins folder to your Unity project's Assets folder
-3. via Package Manager (**Add package from git url**):
-
-    - `https://github.com/onedevapp/UnityNativeInAppUpdate.git`
-4. via Package Manager (add the following line to **Packages/manifest.json**):
-    - `"com.onedevapp.nativeinappupdate": "https://github.com/onedevapp/UnityNativeInAppUpdate.git",`
-
+* Open Package Manager in Unity
+* Press "+" and "Add package from git URL..."
+* Enter this repository and version as  `https://github.com/onedevapp/UnityNativeInAppUpdate.git#TAG` (see latest version [here](https://github.com/onedevapp/UnityNativeInAppUpdate/tags))
    
 <br>
 
