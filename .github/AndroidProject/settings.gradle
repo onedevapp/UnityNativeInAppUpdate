@@ -1,2 +1,0 @@
-include ':NativeInAppUpdate'
-rootProject.name = "NativeInAppUpdate_Plugin"
